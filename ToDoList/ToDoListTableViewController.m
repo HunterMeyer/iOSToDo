@@ -20,16 +20,16 @@
 
 - (void)loadInitialData {
     ToDoItem *item1 = [[ToDoItem alloc] init];
-    item1.itemName = @"Buy milk";
+    item1.itemName = @"Learn iOS App Structure";
     [self.toDoItems addObject:item1];
     ToDoItem *item2 = [[ToDoItem alloc] init];
-    item2.itemName = @"Kiss Megan";
+    item2.itemName = @"Build ToDo App";
     [self.toDoItems addObject:item2];
     ToDoItem *item3 = [[ToDoItem alloc] init];
-    item3.itemName = @"Read our book";
+    item3.itemName = @"Put it on GitHub";
     [self.toDoItems addObject:item3];
     ToDoItem *item4 = [[ToDoItem alloc] init];
-    item4.itemName = @"Demo my first iOS app";
+    item4.itemName = @"Profit";
     [self.toDoItems addObject:item4];
 }
 

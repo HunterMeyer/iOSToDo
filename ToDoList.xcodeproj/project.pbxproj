@@ -16,6 +16,9 @@
 		A597D3F01A9941E400126E0C /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A597D3EF1A9941E400126E0C /* AddToDoItemViewController.m */; };
 		A597D3F31A9942F000126E0C /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A597D3F21A9942F000126E0C /* ToDoListTableViewController.m */; };
 		A597D3F61A996D4400126E0C /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A597D3F51A996D4400126E0C /* ToDoItem.m */; };
+		A5CB8A911A99915E00548F52 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A5CB8A901A99915E00548F52 /* README.md */; };
+		A5CB8A941A9997F600548F52 /* add_view.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB8A931A9997F600548F52 /* add_view.png */; };
+		A5CB8A961A9997FD00548F52 /* list_view.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB8A951A9997FD00548F52 /* list_view.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		A597D3F21A9942F000126E0C /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
 		A597D3F41A996D4400126E0C /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
 		A597D3F51A996D4400126E0C /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		A5CB8A901A99915E00548F52 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ToDoList/README.md; sourceTree = "<group>"; };
+		A5CB8A931A9997F600548F52 /* add_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_view.png; path = ../../../../../Desktop/add_view.png; sourceTree = "<group>"; };
+		A5CB8A951A9997FD00548F52 /* list_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_view.png; path = ../../../../../Desktop/list_view.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 		A50F64731A990F9300D5B38A = {
 			isa = PBXGroup;
 			children = (
+				A5CB8A921A9991BE00548F52 /* Screenshots */,
+				A5CB8A901A99915E00548F52 /* README.md */,
 				A50F647E1A990F9300D5B38A /* ToDoList */,
 				A50F64981A990F9300D5B38A /* ToDoListTests */,
 				A50F647D1A990F9300D5B38A /* Products */,
@@ -127,6 +135,15 @@
 				A50F649A1A990F9300D5B38A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5CB8A921A9991BE00548F52 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB8A951A9997FD00548F52 /* list_view.png */,
+				A5CB8A931A9997F600548F52 /* add_view.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CB8A961A9997FD00548F52 /* list_view.png in Resources */,
 				A50F648B1A990F9300D5B38A /* Main.storyboard in Resources */,
 				A50F64901A990F9300D5B38A /* LaunchScreen.xib in Resources */,
+				A5CB8A941A9997F600548F52 /* add_view.png in Resources */,
 				A50F648D1A990F9300D5B38A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CB8A911A99915E00548F52 /* README.md in Sources */,
 				A50F64851A990F9300D5B38A /* AppDelegate.m in Sources */,
 				A597D3F61A996D4400126E0C /* ToDoItem.m in Sources */,
 				A597D3F31A9942F000126E0C /* ToDoListTableViewController.m in Sources */,
